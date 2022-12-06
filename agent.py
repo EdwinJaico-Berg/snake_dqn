@@ -87,7 +87,7 @@ class Agent:
         # Tradeoff between exploration and exploitation
         self.epsilon = 80 - self.n_games
         final_move = [0,0,0]
-        if random.randint(0, 100) < self.epsilon:
+        if random.randint(0, 200) < self.epsilon:
             idx = random.randint(0, 2)
             final_move[idx] = 1
         else:

@@ -62,4 +62,3 @@ class QTrainer:
         loss.backward()
 
         self.optimiser.step()
-
